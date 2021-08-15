@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA6DDC5626C9623C009614BC /* pendoExamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6DDC5526C9623C009614BC /* pendoExamApp.swift */; };
+		CA6DDC5826C9623C009614BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6DDC5726C9623C009614BC /* ContentView.swift */; };
+		CA6DDC5A26C9623D009614BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA6DDC5926C9623D009614BC /* Assets.xcassets */; };
+		CA6DDC5D26C9623D009614BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA6DDC5C26C9623D009614BC /* Preview Assets.xcassets */; };
+		CA6DDC6826C9623D009614BC /* pendoExamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6DDC6726C9623D009614BC /* pendoExamTests.swift */; };
+		CA6DDC7326C9623D009614BC /* pendoExamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6DDC7226C9623D009614BC /* pendoExamUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA6DDC6426C9623D009614BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA6DDC4A26C9623C009614BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA6DDC5126C9623C009614BC;
+			remoteInfo = pendoExam;
+		};
+		CA6DDC6F26C9623D009614BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA6DDC4A26C9623C009614BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA6DDC5126C9623C009614BC;
+			remoteInfo = pendoExam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA6DDC5226C9623C009614BC /* pendoExam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pendoExam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA6DDC5526C9623C009614BC /* pendoExamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pendoExamApp.swift; sourceTree = "<group>"; };
+		CA6DDC5726C9623C009614BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CA6DDC5926C9623D009614BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA6DDC5C26C9623D009614BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CA6DDC5E26C9623D009614BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA6DDC6326C9623D009614BC /* pendoExamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pendoExamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA6DDC6726C9623D009614BC /* pendoExamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pendoExamTests.swift; sourceTree = "<group>"; };
+		CA6DDC6926C9623D009614BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA6DDC6E26C9623D009614BC /* pendoExamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pendoExamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA6DDC7226C9623D009614BC /* pendoExamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pendoExamUITests.swift; sourceTree = "<group>"; };
+		CA6DDC7426C9623D009614BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA6DDC4F26C9623C009614BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6DDC6026C9623D009614BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6DDC6B26C9623D009614BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA6DDC4926C9623C009614BC = {
+			isa = PBXGroup;
+			children = (
+				CA6DDC5426C9623C009614BC /* pendoExam */,
+				CA6DDC6626C9623D009614BC /* pendoExamTests */,
+				CA6DDC7126C9623D009614BC /* pendoExamUITests */,
+				CA6DDC5326C9623C009614BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA6DDC5326C9623C009614BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA6DDC5226C9623C009614BC /* pendoExam.app */,
+				CA6DDC6326C9623D009614BC /* pendoExamTests.xctest */,
+				CA6DDC6E26C9623D009614BC /* pendoExamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA6DDC5426C9623C009614BC /* pendoExam */ = {
+			isa = PBXGroup;
+			children = (
+				CA6DDC5526C9623C009614BC /* pendoExamApp.swift */,
+				CA6DDC5726C9623C009614BC /* ContentView.swift */,
+				CA6DDC5926C9623D009614BC /* Assets.xcassets */,
+				CA6DDC5E26C9623D009614BC /* Info.plist */,
+				CA6DDC5B26C9623D009614BC /* Preview Content */,
+			);
+			path = pendoExam;
+			sourceTree = "<group>";
+		};
+		CA6DDC5B26C9623D009614BC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CA6DDC5C26C9623D009614BC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CA6DDC6626C9623D009614BC /* pendoExamTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA6DDC6726C9623D009614BC /* pendoExamTests.swift */,
+				CA6DDC6926C9623D009614BC /* Info.plist */,
+			);
+			path = pendoExamTests;
+			sourceTree = "<group>";
+		};
+		CA6DDC7126C9623D009614BC /* pendoExamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA6DDC7226C9623D009614BC /* pendoExamUITests.swift */,
+				CA6DDC7426C9623D009614BC /* Info.plist */,
+			);
+			path = pendoExamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA6DDC5126C9623C009614BC /* pendoExam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA6DDC7726C9623D009614BC /* Build configuration list for PBXNativeTarget "pendoExam" */;
+			buildPhases = (
+				CA6DDC4E26C9623C009614BC /* Sources */,
+				CA6DDC4F26C9623C009614BC /* Frameworks */,
+				CA6DDC5026C9623C009614BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pendoExam;
+			productName = pendoExam;
+			productReference = CA6DDC5226C9623C009614BC /* pendoExam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA6DDC6226C9623D009614BC /* pendoExamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA6DDC7A26C9623D009614BC /* Build configuration list for PBXNativeTarget "pendoExamTests" */;
+			buildPhases = (
+				CA6DDC5F26C9623D009614BC /* Sources */,
+				CA6DDC6026C9623D009614BC /* Frameworks */,
+				CA6DDC6126C9623D009614BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA6DDC6526C9623D009614BC /* PBXTargetDependency */,
+			);
+			name = pendoExamTests;
+			productName = pendoExamTests;
+			productReference = CA6DDC6326C9623D009614BC /* pendoExamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA6DDC6D26C9623D009614BC /* pendoExamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA6DDC7D26C9623D009614BC /* Build configuration list for PBXNativeTarget "pendoExamUITests" */;
+			buildPhases = (
+				CA6DDC6A26C9623D009614BC /* Sources */,
+				CA6DDC6B26C9623D009614BC /* Frameworks */,
+				CA6DDC6C26C9623D009614BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA6DDC7026C9623D009614BC /* PBXTargetDependency */,
+			);
+			name = pendoExamUITests;
+			productName = pendoExamUITests;
+			productReference = CA6DDC6E26C9623D009614BC /* pendoExamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA6DDC4A26C9623C009614BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					CA6DDC5126C9623C009614BC = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					CA6DDC6226C9623D009614BC = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = CA6DDC5126C9623C009614BC;
+					};
+					CA6DDC6D26C9623D009614BC = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = CA6DDC5126C9623C009614BC;
+					};
+				};
+			};
+			buildConfigurationList = CA6DDC4D26C9623C009614BC /* Build configuration list for PBXProject "pendoExam" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA6DDC4926C9623C009614BC;
+			productRefGroup = CA6DDC5326C9623C009614BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA6DDC5126C9623C009614BC /* pendoExam */,
+				CA6DDC6226C9623D009614BC /* pendoExamTests */,
+				CA6DDC6D26C9623D009614BC /* pendoExamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA6DDC5026C9623C009614BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6DDC5D26C9623D009614BC /* Preview Assets.xcassets in Resources */,
+				CA6DDC5A26C9623D009614BC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6DDC6126C9623D009614BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6DDC6C26C9623D009614BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA6DDC4E26C9623C009614BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6DDC5826C9623C009614BC /* ContentView.swift in Sources */,
+				CA6DDC5626C9623C009614BC /* pendoExamApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6DDC5F26C9623D009614BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6DDC6826C9623D009614BC /* pendoExamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6DDC6A26C9623D009614BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6DDC7326C9623D009614BC /* pendoExamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA6DDC6526C9623D009614BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA6DDC5126C9623C009614BC /* pendoExam */;
+			targetProxy = CA6DDC6426C9623D009614BC /* PBXContainerItemProxy */;
+		};
+		CA6DDC7026C9623D009614BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA6DDC5126C9623C009614BC /* pendoExam */;
+			targetProxy = CA6DDC6F26C9623D009614BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CA6DDC7526C9623D009614BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA6DDC7626C9623D009614BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA6DDC7826C9623D009614BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"pendoExam/Preview Content\"";
+				DEVELOPMENT_TEAM = N7A2Y923Z8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = pendoExam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yousef.pendoExam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA6DDC7926C9623D009614BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"pendoExam/Preview Content\"";
+				DEVELOPMENT_TEAM = N7A2Y923Z8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = pendoExam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yousef.pendoExam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA6DDC7B26C9623D009614BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N7A2Y923Z8;
+				INFOPLIST_FILE = pendoExamTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yousef.pendoExamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pendoExam.app/pendoExam";
+			};
+			name = Debug;
+		};
+		CA6DDC7C26C9623D009614BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N7A2Y923Z8;
+				INFOPLIST_FILE = pendoExamTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yousef.pendoExamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pendoExam.app/pendoExam";
+			};
+			name = Release;
+		};
+		CA6DDC7E26C9623D009614BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N7A2Y923Z8;
+				INFOPLIST_FILE = pendoExamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yousef.pendoExamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pendoExam;
+			};
+			name = Debug;
+		};
+		CA6DDC7F26C9623D009614BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N7A2Y923Z8;
+				INFOPLIST_FILE = pendoExamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yousef.pendoExamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pendoExam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA6DDC4D26C9623C009614BC /* Build configuration list for PBXProject "pendoExam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6DDC7526C9623D009614BC /* Debug */,
+				CA6DDC7626C9623D009614BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA6DDC7726C9623D009614BC /* Build configuration list for PBXNativeTarget "pendoExam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6DDC7826C9623D009614BC /* Debug */,
+				CA6DDC7926C9623D009614BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA6DDC7A26C9623D009614BC /* Build configuration list for PBXNativeTarget "pendoExamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6DDC7B26C9623D009614BC /* Debug */,
+				CA6DDC7C26C9623D009614BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA6DDC7D26C9623D009614BC /* Build configuration list for PBXNativeTarget "pendoExamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6DDC7E26C9623D009614BC /* Debug */,
+				CA6DDC7F26C9623D009614BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA6DDC4A26C9623C009614BC /* Project object */;
+}
